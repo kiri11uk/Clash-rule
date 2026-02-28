@@ -1,9 +1,10 @@
 # NAME: ssclash
 # AUTHOR: Kirilluk
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:16:55
+# REPO: https://github.com/kiri11uk/Clash-rule
+# UPDATED: 2026-02-28 15:16:55
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 1
 
 payload:
   - DOMAIN-SUFFIX,ssclash.notion.site
+
