@@ -1,7 +1,7 @@
 # NAME: ssclash
-# AUTHOR: Kirilluk
+# AUTHOR: kiri11uk
 # REPO: https://github.com/kiri11uk/Clash-rule
-# UPDATED: 2026-03-05 00:16:55
+# UPDATED: 2026-03-05 09:43:55
 
 payload:
   - DOMAIN-SUFFIX,ssclash.notion.site
@@ -11,4 +11,5 @@ payload:
   - DOMAIN-SUFFIX,corsair.com
   - DOMAIN-SUFFIXipip.net
   - DOMAIN-SUFFIXip.sb
+
 
