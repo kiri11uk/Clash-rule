@@ -5,11 +5,12 @@
 
 payload:
   - DOMAIN-SUFFIX,ssclash.notion.site
-  - DOMAIN-SUFFIX,xvideos.com
-  - DOMAIN-SUFFIX,xv-ru.com
   - DOMAIN-SUFFIX,forum.fanatec.com
   - DOMAIN-SUFFIX,corsair.com
-  - DOMAIN-SUFFIXipip.net
-  - DOMAIN-SUFFIXip.sb
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,xv-ru.com
+  - DOMAIN-SUFFIX,ipip.net
+  - DOMAIN-SUFFIX,ip.sb
+
 
 
