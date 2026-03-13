@@ -1,7 +1,7 @@
 # NAME: ssclash
 # AUTHOR: kiri11uk
 # REPO: https://github.com/kiri11uk/Clash-rule
-# UPDATED: 2026-03-05 09:43:55
+# UPDATED: 2026-03-13 11:12:55
 
 payload:
   - DOMAIN-SUFFIX,ssclash.notion.site
@@ -14,9 +14,12 @@ payload:
   - DOMAIN-SUFFIX,4pda.ru
   - DOMAIN-SUFFIX,4pda.ws
   - DOMAIN-SUFFIX,fast.com
-
-
-
+  - DOMAIN-SUFFIX,aorus.com
+  - DOMAIN-SUFFIX,dlpsgame.com
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,xvideos-cdn.com
+  - DOMAIN-SUFFIX,xv-ru.com
+  
 
 
 
@@ -26,5 +29,6 @@ payload:
 
 
   
+
 
 
