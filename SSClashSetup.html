@@ -2,94 +2,15 @@
 <html lang="ru">
 <body>
     <h1>SSclash</h1>
-    <p>Установить curl и kmod-nft-tproxy</p>    
-    <p>luci-app-ssclash: <a href="https://github.com/zerolabnet/SSClash/releases" target="_blank">https://github.com/zerolabnet/SSClash/releases</a></p>
-</body>
-
-
-<head>
-    <meta charset="UTF-8">
-    <title>Копирование текста</title>
-    <style>
-        .copy-block {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin: 10px 0;
-            cursor: pointer;
-            background-color: #f9f9f9;
-            transition: background 0.3s;
-        }
-        .copy-block:hover {
-            background-color: #e0e0e0;
-        }
-        .copy-block:active {
-            background-color: #d0d0d0;
-        }
-        /* Стили для уведомления */
-        .tooltip {
-            position: fixed;
-            background: #333;
-            color: #fff;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 12px;
-            display: none;
-        }
-    </style>
-</head>
-<body>
-
-    <h4>Скаченный выше файл кидаем в /tmp/</h4>
-
-    <div class="copy-block" onclick="copyText(this)">apk add --allow-untrusted /tmp/luci-app-ssclash-3.9.0-r1.apk</div>
-    
-    <script>
-        function copyText(element) {
-            // Получаем текст из элемента
-            const text = element.innerText;
-            
-            // Используем Clipboard API
-            navigator.clipboard.writeText(text).then(() => {
-                // Уведомление о копировании
-                alert("Скопировано");
-            }).catch(err => {
-                console.error('Ошибка при копировании: ', err);
-            });
-        }
-    </script>
-</body>
-
-<head>
-    <meta charset="UTF-8">
-    <title>Копирование текста</title>
-    <style>
-        .copy-block {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin: 10px 0;
-            cursor: pointer;
-            background-color: #f9f9f9;
-            transition: background 0.3s;
-        }
-        .copy-block:hover {
-            background-color: #e0e0e0;
-        }
-        .copy-block:active {
-            background-color: #d0d0d0;
-        }
-        /* Стили для уведомления */
-        .tooltip {
-            position: fixed;
-            background: #333;
-            color: #fff;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 12px;
-            display: none;
-        }
-    </style>
-</head>
-<body>
+    <p>Подключаемся к роутеру по SSH с помощью <a href="https://raw.githubusercontent.com/kiri11uk/Clash-rule/refs/heads/main/putty.exe" target="_blank">Putty</a></p>
+    <p>Обновляем пакеты OpenWRT</p>    
+    <div class="copy-block" onclick="copyText(this)">apk update</div>
+    <p>Устанавливаем curl kmod-nft-tproxy kmod-tun coreutils-base64</p>    
+    <div class="copy-block" onclick="copyText(this)">apk add curl kmod-nft-tproxy kmod-tun coreutils-base64</div>
+    <p>Скачиваем SSClash</p>    
+    <div class="copy-block" onclick="copyText(this)">curl -L https://github.com/zerolabnet/SSClash/releases/download/v3.9.0/luci-app-ssclash-3.9.0-r1.apk -o /tmp/luci-app-ssclash.apk</div>
+    <p>Устанавливаем SSClash</p>    
+    <div class="copy-block" onclick="copyText(this)">apk add /tmp/luci-app-ssclash.apk --allow-untrusted && rm -rf /tmp/*.apk</div>
 
     <h3>Mihomo: <a href="https://github.com/MetaCubeX/mihomo/releases" target="_blank">https://github.com/MetaCubeX/mihomo/releases</a></p> </h3>
     <h3>Filogic</h3>
