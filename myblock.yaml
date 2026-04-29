@@ -4,7 +4,7 @@
 # UPDATED: 2026-06-06 09:16:56
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 3
-# TOTAL: 13
+# TOTAL: 14
 payload:
   - DOMAIN-SUFFIX,aorus.com
   - DOMAIN-SUFFIX,corsair.com
@@ -17,5 +17,6 @@ payload:
   - DOMAIN-SUFFIX,ipwho.is
   - DOMAIN-SUFFIX,ipwhois.io
   - DOMAIN-SUFFIX,redmondpie.com
+  - DOMAIN-SUFFIX,sing-box.sagernet.org
   - DOMAIN-SUFFIX,skidrowreloaded.com
   - DOMAIN-SUFFIX,strannikmodz.me
