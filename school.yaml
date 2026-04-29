@@ -1,0 +1,10 @@
+# NAME: school
+# AUTHOR: kiri11uk
+# REPO: https://github.com/kiri11uk/Clash-rule
+# UPDATED: 2026-06-06 09:16:56
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 3
+# TOTAL: 2
+payload:
+  - DOMAIN-SUFFIX,emias.info
+  - DOMAIN-SUFFIX,vkusvill.ru
