@@ -6,6 +6,7 @@
 # DOMAIN-SUFFIX: 3
 # TOTAL: 14
 payload:
+  - DOMAIN-SUFFIX,4pda.to
   - DOMAIN-SUFFIX,aorus.com
   - DOMAIN-SUFFIX,corsair.com
   - DOMAIN-SUFFIX,dlpsgame.com
