@@ -1,31 +1,38 @@
-a01.cdn.update.playstation.org.edgesuite.net
-a192.d.akamai.net
-al02.cdn.update.playstation.net
-api-p014.ribob01.net
-apicdn-p014.ribob01.net
-artcdnsecure.ribob01.net
-artcdnsecure.ribob01.netapi-p014.ribob01.net
-asm.np.community.playstation.net
-get.net.playstation.net
-playstation.sony.akadns.net
-post.net.playstation.net
-sf.api.np.km.playstation.net
-t-prof.np.community.playstation.net
-themis.dl.playstation.net
-tmdb.np.dl.playstation.net
-us.np.stun.playstation.net
-dru01.ps5.update.playstation.net
-fru01.ps5.update.playstation.net
-duk01.ps5.update.playstation.net
-fuk01.ps5.update.playstation.net
-dus01.ps5.update.playstation.net
-fus01.ps5.update.playstation.net
-feu01.ps5.update.playstation.net
-dau01.ps5.update.playstation.net
-fau01.ps5.update.playstation.net
-djp01.ps5.update.playstation.net
-fjp01.ps5.update.playstation.net
-fsa01.ps5.update.playstation.net
-dsa01.ps5.update.playstation.net
-sgst.prod.dl.playstation.net
-gs2.ww.prod.dl.playstation.net
+# NAME: PS5block
+# AUTHOR: kiri11uk
+# REPO: https://github.com/kiri11uk/Clash-rule/
+# UPDATED: 2026-05-08 22:11:02
+# DOMAIN-SUFFIX: 31
+# TOTAL: 31
+payload:
+  - DOMAIN-SUFFIX,a01.cdn.update.playstation.org.edgesuite.net
+  - DOMAIN-SUFFIX,a192.d.akamai.net
+  - DOMAIN-SUFFIX,al02.cdn.update.playstation.net
+  - DOMAIN-SUFFIX,api-p014.ribob01.net
+  - DOMAIN-SUFFIX,apicdn-p014.ribob01.net
+  - DOMAIN-SUFFIX,artcdnsecure.ribob01.net
+  - DOMAIN-SUFFIX,artcdnsecure.ribob01.netapi-p014.ribob01.net
+  - DOMAIN-SUFFIX,asm.np.community.playstation.net
+  - DOMAIN-SUFFIX,get.net.playstation.net
+  - DOMAIN-SUFFIX,playstation.sony.akadns.net
+  - DOMAIN-SUFFIX,post.net.playstation.net
+  - DOMAIN-SUFFIX,sf.api.np.km.playstation.net
+  - DOMAIN-SUFFIX,t-prof.np.community.playstation.net
+  - DOMAIN-SUFFIX,themis.dl.playstation.net
+  - DOMAIN-SUFFIX,tmdb.np.dl.playstation.net
+  - DOMAIN-SUFFIX,us.np.stun.playstation.net
+  - DOMAIN-SUFFIX,dru01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,fru01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,duk01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,fuk01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,dus01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,fus01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,feu01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,dau01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,fau01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,djp01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,fjp01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,fsa01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,dsa01.ps5.update.playstation.net
+  - DOMAIN-SUFFIX,sgst.prod.dl.playstation.net
+  - DOMAIN-SUFFIX,gs2.ww.prod.dl.playstation.net
