@@ -3,8 +3,8 @@
 # REPO: https://github.com/kiri11uk/Clash-rule
 # UPDATED: 2026-05-08 09:16:56
 # DOMAIN-KEYWORD: 2
-# DOMAIN-SUFFIX: 20
-# TOTAL: 22
+# DOMAIN-SUFFIX: 17
+# TOTAL: 19
 payload:
   - DOMAIN-SUFFIX,4pda.to
   - DOMAIN-SUFFIX,4pda.ws
@@ -23,8 +23,5 @@ payload:
   - DOMAIN-SUFFIX,sing-box.sagernet.org
   - DOMAIN-SUFFIX,skidrowreloaded.com
   - DOMAIN-SUFFIX,strannikmodz.me
-  - DOMAIN-SUFFIX,xvideos.com
-  - DOMAIN-SUFFIX,xv-ru.com
-  - DOMAIN-SUFFIX,xvideos-cdn.com
   - DOMAIN-KEYWORD,fanatec
   - DOMAIN-KEYWORD,4pda
