@@ -2,8 +2,7 @@
 # AUTHOR: kiri11uk
 # REPO: https://github.com/kiri11uk/Clash-rule
 # UPDATED: 2026-06-06 09:16:56
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 3
+# DOMAIN-SUFFIX: 31
 # TOTAL: 31
 payload:
   - DOMAIN-SUFFIX,a01.cdn.update.playstation.org.edgesuite.net
