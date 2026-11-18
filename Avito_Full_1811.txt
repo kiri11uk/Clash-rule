@@ -270,7 +270,7 @@ proxy-groups:
     type: url-test
     url: 'https://www.gstatic.com/generate_204'
     interval: 30
-    tolerance: 100
+    tolerance: 10
     include-all-providers: true
     filter: "🇫🇮|🇫🇷|🇱🇻|🇳🇱|🇸🇪|🇺🇸"
     exclude-filter: "Anycast-IP|Unknown"
@@ -280,7 +280,7 @@ proxy-groups:
     type: url-test
     url: 'https://www.gstatic.com/generate_204'
     interval: 30
-    tolerance: 100
+    tolerance: 10
     include-all-providers: true
     exclude-filter: "Anycast-IP|Unknown|Russia|Россия|Belarus|🇧🇾|🇫🇮|🇫🇷|🇱🇻|🇳🇱|🇷🇺|🇸🇪|🇺🇸"
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Server.png
@@ -292,7 +292,7 @@ proxy-groups:
       - Socks
     url: 'https://www.gstatic.com/generate_204'
     interval: 300
-    strategy: round-robin
+    strategy: consistent-hashing
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
 
   - name: NoVPN
