@@ -24,8 +24,8 @@ dns:
     "+.ru": https://77.88.8.8/dns-query
     "+.рф": https://77.88.8.8/dns-query
     "+.su": https://77.88.8.8/dns-query
-    "+.lan": https://77.88.8.8/dns-query
-    "+.local": https://77.88.8.8/dns-query
+    "+.lan": system
+    "+.local": system
   nameserver:
     - https://9.9.9.9/dns-query
     - https://1.1.1.1/dns-query
