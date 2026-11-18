@@ -242,8 +242,8 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - "Masque1"
-      - "Masque2"
+      - Masque1
+      - Masque2
     icon: https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg
 
   - name: YouTube
